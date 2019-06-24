@@ -65,3 +65,9 @@ copy() 函数用于复制列表
     ```
 * 列表元素截取<br>
 以`list=['information','nature','system',5]`为例
+
+    | Python 表达式 | 结果 | 描述 | 
+    | :-: | :-: | :-: | 
+    |list[2]	|'system'	|读取列表中第三个元素|
+    |list[-1]	|5 |读取列表中倒数第一个元素|
+    |list[1:]	|['nature','system',5]|	从第二个元素开始截取列表|
