@@ -10,11 +10,13 @@ Task2
 * 创建<br>
     在Python中，列表的标志，也即其使用符号就是'List'。List是一种有序的集合，可以随时添加和删除其中的元素，是Python中最基本的数据结构。<br>
     序列中的每个元素都分配一个数字 - 它的位置，或索引，第一个索引是0，第二个索引是1，依此类推。列表的数据项不需要具有相同的类型。创建一个列表，只要把逗号分隔的不同的数据项使用方括号括起来即可：<br>
-      `list=['information','science',1992,5]`
+      ```
+      list=['information','science',1992,5]
+      ```
 * append()<br>
 list是一个可变的有序表，所以，如果我们要往里面添加元素到末尾，可以使用append()。
     ```
     list.append('hybrid')
     print(list)
-    list=list=['information','science',1992,5,'hybrid']
+    list=['information','science',1992,5,'hybrid']
     ```
