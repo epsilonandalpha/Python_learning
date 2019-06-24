@@ -47,4 +47,21 @@ list是一个可变的有序表，所以，如果我们要往里面添加元素�
     print(list)
     list=['information','nature','system',5]
     ```
-    
+* del<br>
+可以使用 del 语句来删除列表的元素
+    ```
+    list=['information','nature','system',5]
+    del list[0]
+    print(list)
+    list=['nature', 'system', 5]
+    ```
+* 拷贝<br>
+copy() 函数用于复制列表
+    ```
+    list=['nature', 'system', 5]
+    list1=list.copy()
+    print(list1)
+    ['nature', 'system', 5]
+    ```
+* 列表元素截取<br>
+以`list=['information','nature','system',5]`为例
