@@ -13,9 +13,9 @@ Task2
     list=['information','science',1992,5]
 * append()<br>
 list是一个可变的有序表，所以，如果我们要往里面添加元素到末尾，可以使用append()。
-  '''
-  list.append('hybrid')
-  print(list)
-  list=list=['information','science',1992,5,'hybrid']
-  '''
+      '''
+          list.append('hybrid')
+          print(list)
+          list=list=['information','science',1992,5,'hybrid']
+      '''
   
