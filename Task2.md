@@ -14,34 +14,34 @@ Task2
     list=['information','science',1992,5]
     ```
 * append()<br>
-list是一个可变的有序表，所以，如果我们要往里面添加元素到末尾，可以使用append()。
+list是一个可变的有序表，所以，如果我们要往里面添加元素到末尾，可以使用append()
     ```
     list.append('hybrid')
     print(list)
     list=['information','science',1992,5,'hybrid']
     ```
-* insert()<br>    
-也可以把元素插入到指定的位置，比如索引号为2的位置(注意，list的索引号从0开始)，可以使用insert()：
+* insert()<br>
+也可以把元素插入到指定的位置，比如索引号为2的位置(注意，list的索引号从0开始)，可以使用insert()
     ```
     list.insert(2，'system')
     print(list)
     list=['information','science','system',1992,5,'hybrid']
     ```
-* pop()<br>    
-要删除list末尾的元素，用pop()：
+* pop()<br>
+    要删除list末尾的元素，用pop()
     ```
     list.pop()
     print(list)
     list=['information','science','system',1992,5]
     ```
-要删除指定位置的元素，用pop(i)方法，其中i是索引号：  
+    要删除指定位置的元素，用pop(i)方法，其中i是索引号
     ```
     list.pop(3)
     print(list)
     list=['information','science','system',5]
     ```
-* 替换元素<br>    
-要把某个元素替换成别的元素，可以直接赋值给对应的索引号：
+* 替换元素<br>
+要把某个元素替换成别的元素，可以直接赋值给对应的索引号
     ```
     list[1]='nature'
     print(list)
