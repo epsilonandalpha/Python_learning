@@ -92,3 +92,65 @@ Task3
     {2, 3}
     {1, 2, 3, 4}
     ```
+## 判断（if）语句
+* 基本语法<br>
+    if语法与c语言基本相同，要注意的是其严格执行缩进规则
+    ```
+    age = 3
+    if age >= 18:
+        print('your age is', age)
+        print('adult')
+    else:
+        print('your age is', age)
+        print('teenager')
+    your age is 3
+    teenager
+    ```
+* 逻辑运算<br>
+    在if语句中，逻辑运算包括三种，与（and）或（or）非（not）
+    1. 与（and）
+        两个条件同时满足，返回True<br>
+        只要有一个不满足，就返回False
+    ```
+    age = 13
+    if age >= 8 and age <= 18:
+        print('正确年龄')
+    else:
+        print('年龄错误')
+    正确年龄
+    ```
+    2. 或（or）
+        两个条件只要有一个满足，返回True<br>
+        两个条件都不满足，返回False
+    ```
+    age = 18
+    weight = 130
+    if age >= 18 or weight >= 120:
+        print('合格')
+    else:
+        print('不合格')
+    合格
+    ```
+    3. 非（not）
+    ```
+    age = 0
+    if not age:
+        print('不合格')
+    ```
+* 多条件判断<br>
+    ```
+    age = 14
+    if age <= 5:
+        print('幼儿园')
+    elif age <= 12 and age > 5:
+        print('小学')
+    elif age <= 18 and age > 12:
+        print('中学')
+    elif age <= 22 and age > 18:
+        print('大学')
+    else:
+        print('毕业')
+    中学
+    ```
+    当然，跟C语言一样，python中IF语句也可以使用嵌套。
+## 三目表达式
