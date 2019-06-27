@@ -154,7 +154,8 @@ Task3
     ```
     当然，跟C语言一样，python中IF语句也可以使用嵌套。
 ## 三目表达式
-    三目表达式的核心在于多条件判断的缩写
+* 核心
+    三目表达式的核心在于多条件判断的缩写。
     ```
     #编写一个Python程序，输入两个数，比较它们的大小并输出其中较大者
     x = int(5)
@@ -164,3 +165,23 @@ Task3
     8
     ```
 ## 循环语句
+  Python的循环有两种，一种是for...in循环，依次把list或tuple中的每个元素迭代出来；第二种循环是while循环，只要条件满足，就不断循环，条件不满足时退出循环。
+* for···in循环
+    ```
+    names = ['Michael', 'Bob', 'Tracy']
+    for name in names:
+        print(name)
+    Michael
+    Bob
+    Tracy
+    ```
+* while循环
+    ```
+    sum = 0
+    n = 99
+    while n > 0:
+        sum = sum + n
+        n = n - 2
+    print(sum)
+    2500
+    ```
