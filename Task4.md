@@ -162,3 +162,20 @@ return语句[表达式]退出函数，选择性地向调用方返回一个表达
   |os.chmod(path, mode)|更改权限|
   |os.chown(path, uid, gid)|更改文件所有者|
   |os.chroot(path)|改变当前进程的根目录|
+## datetime模块
+datetime是Python处理日期和时间的标准库。
+* 获取当前日期和时间<br>
+    ```
+    from datetime import datetime
+    now = datetime.now() # 获取当前datetime
+    print(now)
+    2019-06-30 22:01:10.510701
+    ```
+* 获取指定日期和时间<br>
+要指定某个日期和时间，我们直接用参数构造一个datetime：
+    ```
+    from datetime import datetime
+    dt = datetime(2019, 4, 19, 12, 20) # 用指定日期时间创建datetime
+    print(dt)
+    2019-04-19 12:20:00
+    ```
