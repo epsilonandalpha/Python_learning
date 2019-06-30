@@ -119,17 +119,17 @@ Python 中只有模块（module），类（class）以及函数（def、lambda�
     ```
 ## 函数的返回值
 return语句[表达式]退出函数，选择性地向调用方返回一个表达式。不带参数值的return语句返回None。
-    ```
-    # 可写函数说明
-    def sum( arg1, arg2 ):
-       # 返回2个参数的和."
-       total = arg1 + arg2
-       print "函数内 : ", total
-       return total;
-    # 调用sum函数
-    total = sum( 10, 20 );
-    函数内 :  30
-    ```
+  ```
+  # 可写函数说明
+  def sum( arg1, arg2 ):
+     # 返回2个参数的和."
+     total = arg1 + arg2
+     print "函数内 : ", total
+     return total;
+  # 调用sum函数
+  total = sum( 10, 20 );
+  函数内 :  30
+  ```
 ## file
 读写文件是最常见的IO操作。
 * 读文件<br>
@@ -154,4 +154,11 @@ return语句[表达式]退出函数，选择性地向调用方返回一个表达
  ## OS模块
  os 模块提供了非常丰富的方法用来处理文件和目录。常用的方法如下表所示：
  
-  
+  |名称	|描述	|
+  | :-: | :-: |
+  |os.access(path, mode)|检验权限模式|
+  |os.chdir(path)|改变当前工作目录|
+  |os.chflags(path, flags)|设置路径的标记为数字标记|
+  |os.chmod(path, mode)|更改权限|
+  |os.chown(path, uid, gid)|更改文件所有者|
+  |os.chroot(path)|改变当前进程的根目录|
